@@ -48,10 +48,3 @@ void printBoard(char* board[][8]){
     }
 
 
-void print_chess_inscription(){
-  printf("\t  █████    █        █████   █████   █████ \n ");   
-  printf("\t  █        █        █       █       █      \n");
-  printf("\t  █        █████    █████   █████   █████  \n ");
-  printf("\t  █        █   █    █           █       █  \n");
-  printf("\t  █████    █   █    █████   █████   █████  \n");
-}

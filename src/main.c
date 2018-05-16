@@ -1,9 +1,8 @@
 #include "board.h"
 int main()
 {
-    print_chess_inscription();
-    
-	char *board[8][8];
+ 
+    char *board[8][8];
     char white_pawn = 'p';
     char white_rook = 'r';
     char white_night = 'n';
@@ -18,12 +17,12 @@ int main()
     char black_king = 'K';
     char block = ' ';
 
-                                                  
+                                                 
     void initBoard(){
     	for(int i = 0; i < 8; i++){
     		for(int j = 0; j<8; j++){
     			if(i==6){
-    				board[i][j] = &white_pawn;
+    			    board[i][j] = &white_pawn;
                 }
                 else if (i != 7 || 1 !=0 || i != 1 || i !=6){
                 	board[i][j]=&block;
